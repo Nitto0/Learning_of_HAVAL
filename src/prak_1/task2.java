@@ -2,7 +2,7 @@ package prak_1;
 
 import java.util.Scanner;
 
-public class pr_1_2 {
+public class task2 {
     public static void main(String[] argc) {
         Scanner sc = new Scanner(System.in);
         int size;
