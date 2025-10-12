@@ -5,7 +5,7 @@ public class TestKonverter {
         Konverter kon = new Konverter();
         kon.setRuble(1000.0);
 
-        System.out.println("1000 рублей в долларах: " + kon.rubleToDollar());
-        System.out.println("1000 рублей в евро: " + kon.rubleToEuro());
+        System.out.printf("1000 рублей в долларах: %.2f\n", kon.rubleToDollar());
+        System.out.printf("1000 рублей в евро: %.2f\n", kon.rubleToEuro());
     }
 }
