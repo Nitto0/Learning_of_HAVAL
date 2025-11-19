@@ -14,8 +14,8 @@ public class testShape {
         System.out.println("Square perimeter: " + square.getPerimeter());
         System.out.println("Rectangle perimeter: " + rect.getPerimeter() + "\n");
 
-        System.out.println(circle.toString());
-        System.out.println(square.toString());
-        System.out.println(rect.toString() + "\n");
+        System.out.println(circle);
+        System.out.println(square);
+        System.out.println(rect + "\n");
     }
 }
