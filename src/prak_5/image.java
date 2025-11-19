@@ -1,7 +1,6 @@
 package prak_5;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class image {
     public static void main(String[] argc) {
@@ -10,8 +9,8 @@ public class image {
             return;
         }
 
-        String imageName = argc[0];
-        System.out.println(imageName);
+        String imageName = argc[0] + " " + argc[1];
+        System.out.print(imageName);
 
         JFrame frame = new JFrame("Image");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
