@@ -5,8 +5,8 @@ public class task1 {
         int[] arr = {8, 11, 3, 5};
         int sum = 0;
 
-        for(int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        for (int j : arr) {
+            sum += j;
         }
 
         System.out.println("Сумма элементов: " + sum);
