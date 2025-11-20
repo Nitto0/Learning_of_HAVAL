@@ -1,4 +1,4 @@
-package prak_6.task_2;
+package prak_7.task_123;
 
 public class testMovable {
     public static void main(String[] argc) {
@@ -9,8 +9,12 @@ public class testMovable {
         System.out.println("После moveUp: " + rect + "\n");
 
         rect.moveRight();
-        System.out.println("После moveRight" + rect);
+        System.out.println("После moveRight" + rect + "\n");
 
-
+        if (rect.speedTest()) {
+            System.out.println("Скорости совпадают");
+        } else {
+            System.out.println("Скорости не совпадают");
+        }
     }
 }
