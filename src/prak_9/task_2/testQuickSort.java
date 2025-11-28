@@ -5,13 +5,13 @@ import java.util.*;
 public class testQuickSort {
     public static void quickSort(Student[] arr, int low, int high, Comparator<Student> comp) {
         if (low < high) {
-            int pivotIndex = partition(arr, low, high, comp);
+            int pivotIndex = part(arr, low, high, comp);
             quickSort(arr, low, pivotIndex - 1, comp);
             quickSort(arr, pivotIndex + 1, high, comp);
         }
     }
 
-    private static int partition(Student[] arr, int low, int high, Comparator<Student> comp) {
+    private static int part(Student[] arr, int low, int high, Comparator<Student> comp) {
         Student pivot = arr[high];
         int i = low - 1;
 
@@ -33,11 +33,11 @@ public class testQuickSort {
 
     public static void main(String[] argc) {
         Student[] students = {
-                new Student(101, "Иван", 4.2),
-                new Student(102, "Петр", 3.8),
-                new Student(103, "Мария", 4.7),
-                new Student(104, "Анна", 4.1),
-                new Student(105, "Сергей", 3.9)
+                new Student(5, "Иван", 4.2),
+                new Student(3, "Петр", 3.8),
+                new Student(1, "Мария", 4.7),
+                new Student(2, "Анна", 4.1),
+                new Student(4, "Сергей", 3.9)
         };
 
         System.out.println("До сортировки:");
