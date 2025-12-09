@@ -22,7 +22,7 @@ public class task_4 {
     public static void main(String[] argc) {
         Scanner sc = new Scanner(System.in);
 
-        int k, s;
+        int k, s, d;
         System.out.print("Введите k: ");
         k = sc.nextInt();
 

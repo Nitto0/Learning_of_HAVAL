@@ -9,7 +9,7 @@ public class testMovable {
         System.out.println("После moveUp: " + rect + "\n");
 
         rect.moveRight();
-        System.out.println("После moveRight" + rect);
+        System.out.println("После moveRight: " + rect);
 
 
     }

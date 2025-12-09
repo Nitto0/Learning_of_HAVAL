@@ -5,7 +5,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Animation {
-
     public static void main(String[] args) {
         JFrame frame = new JFrame("Анимация 6 кадров");
         frame.setSize(150, 300);

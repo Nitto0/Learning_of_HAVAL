@@ -25,6 +25,11 @@ public class MovableCircle implements Moveable {
         center.moveLeft();
     }
 
+    public void moveXY(int x, int y) {
+        center.x += x;
+        center.y += y;
+    }
+
     @Override
     public String toString() {
         return "MovableCircle{" +
